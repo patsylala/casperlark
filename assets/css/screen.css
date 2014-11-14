@@ -646,6 +646,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .subscribe-button {
     padding: 15px;
+    padding-bottom: 11px;
     border: transparent 1px solid;
     color: #fff;
     text-align: center;
