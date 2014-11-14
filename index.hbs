@@ -4,12 +4,12 @@
 {{! The big featured header }}
 <header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical">
-         <div id="badge">
-            <div class="circle"></div>
+         <a href="https://storylark.ph" id="badge">
+            <div class="circle"><img src="{{asset "images/storylarklogo.png"}}"/></div>
             <div class="badgebottom">
                 <span>market</span>
             </div>
-        </div>
+        </a>
         <div class="site-head-content inner">
             <span class="blog-title">{{@blog.title}}</span>
             <h2 class="blog-description">{{@blog.description}}</h2>
@@ -22,7 +22,7 @@
                     <span class="s2"></span>
                 </div>
             </div>
-            <img src="{{asset "images/bloglark.png"}}" alt="logo {{@blog.title}}" />
+            <img src="{{asset "images/bloglark.png"}}"/>
         </div>
         <div class="subscribecontainer">
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>

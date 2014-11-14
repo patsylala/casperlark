@@ -527,8 +527,6 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     width: 45px;
     height: 45px;
-    background: #fff;
-    -webkit-border-radius: 50%;
 }
 
 #smoke {
