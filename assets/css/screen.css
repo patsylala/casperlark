@@ -533,7 +533,7 @@ margin on the iframe, cause it breaks stuff. */
     position: absolute;
     width: 7.8%;
     height: 19%;
-    left: 27.7%; 
+    left: 27.7%;
     bottom: 38.6%;
 }
 
@@ -553,7 +553,7 @@ margin on the iframe, cause it breaks stuff. */
     -moz-transform-origin:bottom;
     -ms-transform-origin:bottom;
     transform-origin:bottom;
-    
+
 }
 
 #smoke .s0 {
@@ -721,6 +721,7 @@ body:not(.post-template) .post-title {
 }
 
 .read-more {
+    font-weight: bold;
     text-decoration: none;
 }
 
