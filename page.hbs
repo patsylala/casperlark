@@ -3,10 +3,18 @@
 {{! This is a page template. A page outputs content just like any other post, and has all the same
     attributes by default, but you can also customise it to behave differently if you prefer. }}
 
-<nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
+<header class="realpost-header">
+    <a href="https://storylark.ph" id="badge">
+        <div class="circle"><img src="{{asset "images/storylarklogo.png"}}"/></div>
+        <div class="badgebottom">
+            <span>market</span>
+        </div>
+    </a>
+    <span class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></span>
+    <div class="subscribecontainer">
     <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-</nav>
+    </div>
+</header>
 
 <main class="content" role="main">
 

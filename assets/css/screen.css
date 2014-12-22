@@ -814,7 +814,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post-title {
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 .post-template .post-meta {
