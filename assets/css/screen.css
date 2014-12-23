@@ -854,12 +854,13 @@ body:not(.post-template) .post-title {
     padding: 0.6em 0;
 }
 
-#imagecontainer {
+.imagecontainer {
     text-align: center;
 }
 
-#imagecontainer img {
+.imagecontainer img {
     display: inline;
+    padding: 10px;
     width: 300px;
 }
 
